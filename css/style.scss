@@ -1,0 +1,311 @@
+.attribution {
+    margin-top: 5em;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: grey;
+  
+}
+
+
+header {
+  background-image: url("/images/pattern-circles.svg");
+  background-color: rgb(222, 245, 245);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  border-bottom-left-radius: 80px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8em;
+  
+
+  h2 {
+      color: black;
+    font-size: 1.5em;
+    margin: 1em;
+  }
+
+  p{
+      padding: 2px 10em;
+      line-height: 1.5em;
+  }
+}
+
+#card{
+    
+    max-width: 500px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: -40px;
+    background-color: white;
+    border: 1px rgb(233, 232, 232) solid;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    .pageview-heading{
+        width: 100%;
+        padding: 1em 0.5em;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        
+        #pageviews{
+            
+            background-color: white;
+            display: flex;
+            justify-items: center;
+
+            justify-content: space-between;
+            
+            font-size: 1em;
+            align-items: center;
+            font-size: 0.7em;
+
+            h2{
+                padding: 5px;
+            }
+
+        }
+
+        #desktop{
+            background-color: white;
+            display: none;
+            align-items: center;
+            
+        #amount-cash{
+            font-size: 2em;
+            color: black;
+            font-weight: bold;
+        }}
+    }
+
+    .slidecontainer{
+        
+        width: 80%;
+        margin: 1em 0.5em;
+        height: fit-content;
+        
+
+
+    }
+
+    .slider {
+        
+        border-radius: 80px;
+        -webkit-appearance: none;
+        width: 100%;
+        height: 0.8em;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+      
+      .slider:hover {
+        opacity: 1;
+      }
+
+
+    .slider::-webkit-slider-thumb {
+        
+        -webkit-appearance: none;
+        appearance: none;
+        width: 23px;
+        height: 24px;
+        border: 0;
+        background: url('/images/icon-slider.svg');
+        color: white;
+        
+        cursor: pointer;
+      }
+      
+      .slider::-moz-range-thumb {
+
+         
+        width: 23px;
+        height: 25px;
+        border: 0;
+        background: url('/images/icon-slider.svg');
+        cursor: pointer;
+      }
+
+    #mobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        #amount-cash{
+            font-size: 2em;
+            color: black;
+            font-weight: bold;
+            padding: 0.5em ;
+        }
+    }
+
+    .billing{
+        font-size: 0.9em;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0.5em;
+        padding: 0px 1em;
+
+        
+        .switch {
+            margin: 0.5em;
+            position: relative;
+            display: inline-block;
+            width: 3.5em;
+            height: auto;
+        }
+          
+          /* Hide default HTML checkbox */
+          .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+          }
+          
+          /* The slider */
+          .slider {
+            position: absolute;
+            cursor: pointer;
+            height: 1.5em;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+            padding: auto;
+          }
+          
+          .slider:before {
+            position: absolute;
+            content: "";
+            height: 1.4em;
+            width: 1.4em;
+            
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+          }
+          
+          input:checked + .slider {
+            background-color: #75d4fa;
+          }
+          
+          input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+          }
+          
+          input:checked + .slider:before {
+            -webkit-transform: translateX(30px);
+            -ms-transform: translateX(30px);
+            transform: translateX(30px);
+          }
+          
+          /* Rounded sliders */
+          .slider.round {
+            border-radius: 34px;
+          }
+          
+          .slider.round:before {
+            border-radius: 50%;
+          }
+          
+
+        #discount{
+            border: 1px transparent solid;
+            border-radius: 80px;
+            background-color: rgb(247, 231, 245);
+            color: red;
+            font-size: 0.6em;
+            padding: 0.4em;
+        }
+    }
+
+    #start{
+        border-top: 1px rgb(230, 217, 217) solid;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 3em;
+        margin-top: 1em;
+        justify-items: center;
+
+        li{
+            list-style: url("/images/icon-check.svg");
+            padding: 0.3em;
+        }
+
+        button{
+            margin: 1em;
+            padding: 1em 2.5em;
+            background-color: rgb(3, 4, 29);
+            color: white;
+            border-radius: 80px;
+            border: 1px transparent solid;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+
+//media queries
+@media  screen and (min-width: 600px  ) {
+    header{
+        height: 45vh;
+    }
+    #card {
+
+        .pageview-heading{
+            display: flex;
+            justify-content: space-between;
+        }
+        margin-top: -90px;
+        #mobile{
+        display: none;
+
+        }
+        #start{
+            flex-direction: row;
+        }
+
+    }
+    #card .pageview-heading #desktop{
+        display: flex;
+    }
+
+    
+}
+
+@media screen and (max-width: 1440px) {
+    body{
+        max-width: 1440px;
+        min-width: 375px;
+    }
+    
+}

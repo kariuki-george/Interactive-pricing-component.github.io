@@ -1,0 +1,347 @@
+.attribution {
+  margin-top: 5em;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: grey;
+}
+
+header {
+  background-image: url("/images/pattern-circles.svg");
+  background-color: #def5f5;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  border-bottom-left-radius: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8em;
+}
+
+header h2 {
+  color: black;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+header p {
+  padding: 2px 10em;
+  line-height: 1.5em;
+}
+
+#card {
+  max-width: 500px;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: -40px;
+  background-color: white;
+  border: 1px #e9e8e8 solid;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+#card .pageview-heading {
+  width: 100%;
+  padding: 1em 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#card .pageview-heading #pageviews {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.7em;
+}
+
+#card .pageview-heading #pageviews h2 {
+  padding: 5px;
+}
+
+#card .pageview-heading #desktop {
+  background-color: white;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card .pageview-heading #desktop #amount-cash {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+#card .slidecontainer {
+  width: 80%;
+  margin: 1em 0.5em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#card .slider {
+  border-radius: 80px;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0.8em;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+#card .slider:hover {
+  opacity: 1;
+}
+
+#card .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url("/images/icon-slider.svg");
+  color: white;
+  cursor: pointer;
+}
+
+#card .slider::-moz-range-thumb {
+  width: 23px;
+  height: 25px;
+  border: 0;
+  background: url("/images/icon-slider.svg");
+  cursor: pointer;
+}
+
+#card #mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#card #mobile #amount-cash {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+#card .billing {
+  font-size: 0.9em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0.5em;
+  padding: 0px 1em;
+  /* Hide default HTML checkbox */
+  /* The slider */
+  /* Rounded sliders */
+}
+
+#card .billing .switch {
+  margin: 0.5em;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: auto;
+}
+
+#card .billing .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#card .billing .slider {
+  position: absolute;
+  cursor: pointer;
+  height: 1.5em;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  padding: auto;
+}
+
+#card .billing .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#card .billing input:checked + .slider {
+  background-color: #75d4fa;
+}
+
+#card .billing input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+#card .billing input:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+#card .billing .slider.round {
+  border-radius: 34px;
+}
+
+#card .billing .slider.round:before {
+  border-radius: 50%;
+}
+
+#card .billing #discount {
+  border: 1px transparent solid;
+  border-radius: 80px;
+  background-color: #f7e7f5;
+  color: red;
+  font-size: 0.6em;
+  padding: 0.4em;
+}
+
+#card #start {
+  border-top: 1px #e6d9d9 solid;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3em;
+  margin-top: 1em;
+  justify-items: center;
+}
+
+#card #start li {
+  list-style: url("/images/icon-check.svg");
+  padding: 0.3em;
+}
+
+#card #start button {
+  margin: 1em;
+  padding: 1em 2.5em;
+  background-color: #03041d;
+  color: white;
+  border-radius: 80px;
+  border: 1px transparent solid;
+}
+
+#card #start button:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    height: 45vh;
+  }
+  #card {
+    margin-top: -90px;
+  }
+  #card .pageview-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #card #mobile {
+    display: none;
+  }
+  #card #start {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #card .pageview-heading #desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    max-width: 1440px;
+    min-width: 375px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
