@@ -161,6 +161,8 @@ header p {
 }
 
 #card .slider::-moz-range-thumb {
+  -moz-appearance: none;
+       appearance: none;
   width: 23px;
   height: 25px;
   border-radius: 80px;
