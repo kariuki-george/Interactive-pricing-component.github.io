@@ -31,4 +31,4 @@ I've learned how to implement a slider and make responsive
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/smiley-geek)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/smiley-geek)
