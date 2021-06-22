@@ -12,6 +12,9 @@
   padding: 0px;
   box-sizing: border-box;
   color: grey;
+  font-size: 1em ;
+  font-family: 'Manrope', sans-serif ;
+  font-weight: 600;
   
 }
 
@@ -93,7 +96,7 @@ header {
         #amount-cash{
             font-size: 2em;
             color: black;
-            font-weight: bold;
+            font-weight: 800;
         }}
     }
 
@@ -113,7 +116,7 @@ header {
         -webkit-appearance: none;
         width: 100%;
         height: 0.8em;
-        background: #d3d3d3;
+        background: hsl(224, 65%, 95%);
         outline: none;
         opacity: 0.7;
         -webkit-transition: .2s;
@@ -133,7 +136,7 @@ header {
         width: 23px;
         height: 24px;
         border: 0;
-        background: url('../images/icon-slider.svg'),rgb(35, 139, 139);
+        background: url('../images/icon-slider.svg'),hsl(174, 77%, 80%);
         
         
         color: white;
@@ -149,7 +152,7 @@ header {
         height: 25px;
         border-radius: 80px;
         border: 0;
-        background:  url('../images/icon-slider.svg'),rgb(35, 139, 139);;
+        background:  url('../images/icon-slider.svg'),hsl(174, 77%, 80%);
         cursor: pointer;
         
       }
@@ -169,7 +172,7 @@ header {
         #amount-cash{
             font-size: 2em;
             color: black;
-            font-weight: bold;
+            font-weight: 800;
             padding: 0.5em ;
         }
     }
@@ -204,7 +207,7 @@ header {
             position: absolute;
             cursor: pointer;
             height: 1.5em;
-            background-color: #ccc;
+            background-color: hsl(223, 50%, 87%);
             -webkit-transition: .4s;
             transition: .4s;
             padding: auto;
@@ -248,8 +251,8 @@ header {
         #discount{
             border: 1px transparent solid;
             border-radius: 80px;
-            background-color: rgb(247, 231, 245);
-            color: red;
+            background-color: hsl(14, 92%, 95%);
+            color: hsl(15, 100%, 70%);
             font-size: 0.6em;
             padding: 0.4em;
         }
