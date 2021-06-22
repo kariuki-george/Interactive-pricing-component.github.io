@@ -122,6 +122,7 @@ header {
       
       .slider:hover {
         opacity: 1;
+        
       }
 
 
@@ -132,20 +133,31 @@ header {
         width: 23px;
         height: 24px;
         border: 0;
-        background: url('/images/icon-slider.svg');
-        color: white;
+        background: url('/images/icon-slider.svg'),rgb(35, 139, 139);
         
+        
+        color: white;
+        border-radius: 80px;
         cursor: pointer;
       }
       
+      
       .slider::-moz-range-thumb {
 
-         
         width: 23px;
         height: 25px;
+        border-radius: 80px;
         border: 0;
-        background: url('/images/icon-slider.svg');
+        background:  url('/images/icon-slider.svg'),rgb(35, 139, 139);;
         cursor: pointer;
+        
+      }
+
+      .slider::-webkit-slider-thumb:hover{
+        transform: scale(1.2);
+      }
+      .slider::-moz-range-thumb:hover{
+        transform: scale(1.2);
       }
 
     #mobile{
