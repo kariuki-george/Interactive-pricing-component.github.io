@@ -4,15 +4,15 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 
 ## Screenshot
- -screenshot: "../images/screenshot.url"
+ -screenshot: "../images/screenshot.png"
 
-### Links
+## Links
 
 - Solution URL: "https://github.com/smiley-geek/Interactive-pricing-component.github.io/"
 - Live Site URL: "https://smiley-geek.github.io/Interactive-pricing-component.github.io/"
 
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -22,10 +22,10 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 - Git
 
 
-### What I learned
+## What I learned
 I've learned how to implement a slider and make responsive
 
-### Useful resources
+## Useful resources
 ("https://www.w3schools.com/") - This really helped in implementing the slider.
 ("https://stackoverflow.com/") - This really helped in git merging.
 
