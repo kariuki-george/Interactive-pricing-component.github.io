@@ -165,7 +165,7 @@ header p {
   height: 25px;
   border-radius: 80px;
   border: 0;
-  background: url("/images/icon-slider.svg"), #238b8b;
+  background: #238b8b;
   cursor: pointer;
 }
 
